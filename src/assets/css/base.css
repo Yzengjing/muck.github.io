@@ -1,0 +1,32 @@
+/*针对PC 最小不小于768px的*/
+@media screen and (min-width: 768px) {
+  html {
+    font-size: calc(3.6vw) !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: calc(3vw) !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: calc(2.6vw) !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: calc(3.8vw) !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
+/*针对屏幕缩放级别在1.25-3的倍数下*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.25) and (-webkit-max-device-pixel-ratio: 3) {
+  html {
+    font-size: calc(2.6vw) !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
