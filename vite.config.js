@@ -1,7 +1,7 @@
 /*
  * @Author: zengjing
  * @Date: 2024-09-04 13:43:30
- * @LastEditTime: 2024-11-08 16:21:53
+ * @LastEditTime: 2025-11-19 10:49:57
  * @FilePath: \xsqdc:\Users\29737\Desktop\muckAbout\vite.config.js
  * @Description: 
  */
@@ -14,6 +14,11 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from "path" // 需安装此模块
 export default defineConfig({
+  base: './',
+  devServer: {
+    port: 5000,//端口号
+    open: true, //是否自启动
+  },
   resolve: {
     alias: {
       // 在Vue.js项目中设置"@"别名，可以简化文件引用路径，提高开发效率。

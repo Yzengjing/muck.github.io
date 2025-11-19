@@ -1,7 +1,7 @@
 /*
  * @Author: zengjing
  * @Date: 2024-09-04 16:19:34
- * @LastEditTime: 2024-12-19 16:19:18
+ * @LastEditTime: 2025-11-19 10:48:58
  * @FilePath: \xsqdc:\Users\29737\Desktop\muckAbout\src\router\index.js
  * @Description: 
  */
@@ -124,6 +124,7 @@ export const routesList = [
 ]
 
 export const router = createRouter({
-    history: createWebHistory(),
+    // history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: routesList,
 })

@@ -1,1 +1,0 @@
-import{c as a,d as e,w as u,N as n,m as r,o as l,h as _}from"./index-C_zn0_SB.js";const d={__name:"GallleryComponent",setup(p){return(c,t)=>{const o=n("su-button"),s=n("su-input");return l(),a(r,null,[e(o,null,{default:u(()=>t[0]||(t[0]=[_("test按钮")])),_:1}),e(s)],64)}}};export{d as default};
